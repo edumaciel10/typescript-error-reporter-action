@@ -2,7 +2,7 @@ name: 'TypeScript Error Reporter'
 description: 'Report type check result on PR diff view.'
 author: 'andoshin11'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
 branding:
   icon: 'check-circle'
